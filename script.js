@@ -146,7 +146,7 @@ document.querySelector('.btn--hold').addEventListener('click', () => {
         scores[activePlayer] += currentScore;
         document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
-        // 2. Verifica se a pontuação é >= 100
+        // 2. Verifica se a pontuação é >= 30
         if (scores[activePlayer] >= 30) {
             // Encerra o jogo
             playing = false;
